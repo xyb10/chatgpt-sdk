@@ -36,7 +36,7 @@ public class ApiTest {
         // 1. 配置文件
         Configuration configuration = new Configuration();
         configuration.setApiHost("https://api.chatanywhere.tech/");
-        configuration.setApiKey("sk-Cn4WpWLpRES09E9r6nlbilzPz1JrWowyncXzxERuWcNClxcL");
+        configuration.setApiKey("你的key");
         // 2. 会话工厂
         OpenAiSessionFactory factory = new DefaultOpenAiSessionFactory(configuration);
         // 3. 开启会话
